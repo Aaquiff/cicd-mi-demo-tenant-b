@@ -24,7 +24,7 @@ wso2:
       imageName: "wso2mi"
       imageTag: "1.2.0"
       # Number of deployment replicas
-      replicas: 1
+      replicas: 2
       strategy:
         rollingUpdate:
           # The maximum number of pods that can be scheduled above the desired number of pods.

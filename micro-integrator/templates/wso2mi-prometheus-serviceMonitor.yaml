@@ -26,8 +26,8 @@ spec:
     selector:
         matchLabels:
             deployment: {{ template "micro-integrator.fullname" . }}
-    Namespace Selector:
-        Match Names:
+    namespaceSelector:
+        matchNames:
             - {{ .Release.Namespace }}
     endpoints:
         - port: metrics

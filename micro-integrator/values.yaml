@@ -86,3 +86,6 @@ wso2:
         host: wso2-elasticsearch-master
         username: "elastic"
         password: "changeme"
+
+  monitoring:
+    enabled: false
