@@ -62,7 +62,7 @@ wso2:
     # Configure services ingress
     services:
       # Hostname for the Micro Integrator services endpoint.
-      hostname: "mi.staging.wso2.com"
+      hostname: "mi.staging.tenantb.wso2.com"
       # Annotations for the Micro Integrator services Ingress.
       annotations:
         kubernetes.io/ingress.class: "nginx"
